@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    font-family: "Inter", "Helvetica", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    width: 360px;
+    height: 132px;
+    padding: 24px 20px;
+    align-items: flex-start;
+    gap: 168px;
+    flex-shrink: 0;
+}
